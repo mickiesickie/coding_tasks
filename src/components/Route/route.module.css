@@ -1,0 +1,25 @@
+.routeName{
+    position: relative;
+}
+.routeName span{
+    border: 1px  solid black;
+    padding: 5px 10px;
+    position: absolute;
+    display: none;
+    top: -25px;
+    left:50%; 
+    width: 300px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.routeName:hover span{
+    display: block;
+}
+
+.datetime{
+    display: flex;
+    flex-direction: column;
+     button {
+        margin: 5px;
+     }
+}

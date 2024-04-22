@@ -1,0 +1,20 @@
+
+.tabs_wrapper_buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.tabButton {
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.activeTabButton{
+    background-color: azure;
+}

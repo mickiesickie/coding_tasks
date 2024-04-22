@@ -1,0 +1,7 @@
+.activeContent{
+    display: block;
+    padding: 20px;
+}
+.inactiveContent{
+    display: none;
+}
